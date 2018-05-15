@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 body {
-  margin: 10px;
+  margin: 20px;
 }
 
 article h2 {
@@ -12,6 +12,7 @@ article h2 {
   border-bottom: 3px solid rgba(106,216,106,0.5);
   box-shadow: inset 0 -8px 0 rgba(106,216,106,0.5);
   line-height: 150%;
+  text-decoration: none;
 }
 
 article p {
@@ -22,8 +23,9 @@ article p {
   margin-top: 20px;
 }
 
-article a {
-  font-size: 12px;
+article a:hover {
+  text-decoration: none;
+  color: inherit;
 }
 
 .form-container {

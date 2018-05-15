@@ -11,6 +11,7 @@ puts 'Creating 10 fake articles'
   article = Article.new(
     title: Faker::SiliconValley.motto,
     content: Faker::Hacker.say_something_smart,
+    url: Faker::Internet.url,
     )
   article.save!
 end
