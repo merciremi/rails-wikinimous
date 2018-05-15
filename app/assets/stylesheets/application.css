@@ -28,6 +28,7 @@
   display: inline-block;
   font-family: monospace;
   font-size: 3em;
+  font-weight: bold;
   border-bottom: 3px solid rgba(106,216,106,0.5);
   box-shadow: inset 0 -8px 0 rgba(106,216,106,0.5);
 }
