@@ -1,0 +1,7 @@
+<div class="container"></div>
+<%= form_for @article, html: {class: "form-container"} do |f| %>
+<%= f.text_field :title, placeholder: 'What\'s it\'s title?', class: 'form-control input-field' %>
+<%= f.text_area :content, placeholder: 'Jot it down! ✍️', class: 'form-control input-field' %>
+<%= f.submit "Publish your article", class: 'btn btn-success' %>
+<% end %>
+</div>
